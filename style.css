@@ -1,0 +1,237 @@
+.big-image img {
+    height: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    object-fit: cover;
+}
+
+.small-image-top img {
+    max-height: 250px;
+    min-height: 250px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+
+.small-image-bottom-right img {
+    max-height: 250px;
+    min-height: 250px;
+    width: 100%;
+    border-bottom-right-radius: 15px;
+    object-fit: cover;
+    padding-top: 20px;
+}
+
+.small-image-bottom-left img {
+    max-height: 250px;
+    min-height: 250px;
+    width: 100%;
+    object-fit: cover;
+    padding-top: 20px;
+}
+
+.gallery-plus {
+    position: absolute;
+    height: 30px;
+    width: 10rem;
+    margin-top: -50px;
+    color: #000;
+    border-radius: 5px;
+    background: whitesmoke;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.gallery-plus:hover {
+    opacity: 0.8;
+    color: #000;
+}
+
+.otel-puan {
+    position: absolute;
+    justify-content: flex-start;
+    background: whitesmoke;
+    height: 70px;
+    width: 120px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+.btn-light {
+    background: white;
+    color: #000;
+}
+
+
+
+.banner-image img {
+    object-fit: cover;
+}
+
+.ucuzabilet-logo {
+    height: auto;
+    padding-left: 0;
+    max-width: 365px;
+}
+
+.interaction {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    float: right;
+}
+
+
+.allert-info {
+    background-color: #fff3cd;
+    padding: 5px;
+    padding-inline: 14px;
+    text-align: center;
+    border: 1px solid #fdc50de1;
+    border-radius: 30px;
+}
+
+.select-room {
+    border: 2px solid #fff3cd;
+    border-radius: 10px;
+    background-color: white;
+    padding: 2px;
+    width: 50%;
+}
+
+.room-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.room-option {
+    margin-bottom: 15px;
+    padding: 15px;
+    padding-right: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 7px 0 rgb(0 0 0 / 20%);
+    border: 2px #ffffff solid;
+}
+
+.room-option-in {
+    margin: auto;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 2px 7px 0 rgb(0 0 0 / 20%);
+    border: 2px #ffffff solid;
+}
+
+.info-flex {
+    list-style: none;
+    display: flex;
+    gap: var(--gap, 6.9rem);
+    letter-spacing: 1px;
+    border-bottom: 3px solid gainsboro;
+    padding-bottom: 15px;
+}
+
+.info-flex a {
+    text-decoration: none;
+    color: rgba(47, 79, 79, 0.877);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.select-info {
+    padding: 0;
+}
+
+.active-input {
+    border: none;
+    background: none;
+    width: 100%;
+    height: 100%;
+}
+
+.active-label {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+.total-moon {
+    background: #fff6d6;
+    border-radius: 5px;
+    width: 90%;
+    height: 80%;
+    padding: 0.5rem;
+    text-align: center;
+    margin: auto;
+}
+
+.active-search {
+    border: none;
+    background: #fdc60d;
+    border-radius: 5px;
+    width: 100%;
+    height: 70%;
+}
+
+.modal-people {
+    background-color: #FFF;
+    width: 270px;
+    padding: 5px 5px 5px 0px;
+    position: absolute;
+    height: 200px;
+    left: 68%;
+    margin-top: 10px;
+    z-index: 999999;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 0px #000;
+}
+
+.modal-people {
+    display: none;
+}
+
+.modal-text {
+    padding: 15px;
+}
+
+.room-info {
+    margin: auto;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 2px 7px 0 rgb(0 0 0 / 20%);
+    border: 2px #ffffff solid;
+}
+
+.detailAllSmall {
+    display: none;
+}
+
+.in-box-info-right {
+    text-align: right;
+}
+
+.button-info {
+    background: none;
+    border: none;
+}
+
+.box-card {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.detail-all-none {
+    display: none;
+}

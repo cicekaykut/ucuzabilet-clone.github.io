@@ -1,0 +1,9 @@
+.room-option-in {
+    display: none;
+}
+
+.detail-room-info {
+    background: #fdc60d;
+    border-radius: 5px;
+    padding: 5px;
+}
